@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 logs/*
 !.gitkeep
 node_modules/
@@ -7,6 +8,8 @@ tmp
 .DS_Store
 .idea
 =======
+=======
+>>>>>>> 1cf30de0e6f26bb7c0a00b6ce903b67c2012cfa7
 # Logs
 logs
 *.log
@@ -66,4 +69,7 @@ typings/
 # dotenv environment variables file
 .env
 
+<<<<<<< HEAD
+>>>>>>> 1cf30de0e6f26bb7c0a00b6ce903b67c2012cfa7
+=======
 >>>>>>> 1cf30de0e6f26bb7c0a00b6ce903b67c2012cfa7
