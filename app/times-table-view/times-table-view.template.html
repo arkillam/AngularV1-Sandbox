@@ -1,0 +1,10 @@
+<table border="1">
+    <tr>
+        <th>The <input type="number" ng-model="$ctrl.base" /> times table</th>
+    </tr>
+    <tr ng-repeat="r in $ctrl.range">
+        <td>
+            {{$ctrl.base}} x {{ r}} = {{ $ctrl.base * r }}
+        </td>
+    </tr>
+</table>

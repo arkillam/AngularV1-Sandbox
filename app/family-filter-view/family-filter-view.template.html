@@ -1,0 +1,20 @@
+<table border="1">
+
+    <tr>
+        <td>
+            Search for <input ng-model="$ctrl.query">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <ul>
+                <li ng-repeat="m in $ctrl.members | filter:$ctrl.query">
+                    {{m}}
+                </li>
+            </ul>
+
+        </td>
+    </tr>
+</table>

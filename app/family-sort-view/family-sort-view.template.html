@@ -1,0 +1,23 @@
+<table border="1">
+
+    <tr>
+        <td>
+            Order by <select ng-model="$ctrl.sortBy">
+                <option value="name">Name</option>
+                <option value="age">Age</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+            <ul>
+                <li ng-repeat="m in $ctrl.members | orderBy:$ctrl.sortBy">
+                    {{m.name}} ({{m.age}})
+                </li>
+            </ul>
+
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+  <meta charset="utf-8">
+  <title>Andrew's AngularJS Sandbox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="app.css">
+  <script src="bower_components/angular/angular.js"></script>
+  <!-- <script src="bower_components/angular-route/angular-route.js"></script> -->
+  <script src="app.module.js"></script>
+  <script src="family-filter-view/family-filter-view.module.js"></script>
+  <script src="family-filter-view/family-filter-view.component.js"></script>
+  <script src="family-sort-view/family-sort-view.module.js"></script>
+  <script src="family-sort-view/family-sort-view.component.js"></script>
+  <script src="family-view/family-view.module.js"></script>
+  <script src="family-view/family-view.component.js"></script>
+  <script src="times-table-view/times-table-view.module.js"></script>
+  <script src="times-table-view/times-table-view.component.js"></script>
+
+</head>
+
+<body>
+
+  <family-sort-view></family-sort-view>
+
+  <family-filter-view></family-filter-view>
+
+  <hr>
+
+  <family-view></family-view>
+
+  <hr>
+
+  <times-table-view></times-table-view>
+
+</body>
+
+</html>

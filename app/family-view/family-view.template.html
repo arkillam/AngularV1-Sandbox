@@ -1,0 +1,17 @@
+<table border="1">
+    <tr>
+        <td>
+
+            <p>Hello, {{ $ctrl.name }}!</p>
+
+            <p>Hello also to {{ $ctrl.name }} and {{ $ctrl.spouse }}'s children:</p>
+
+            <ul>
+                <li ng-repeat="child in $ctrl.children">
+                    {{child.name}} ( {{child.age}} )
+                </li>
+            </ul>
+
+        </td>
+    </tr>
+</table>
